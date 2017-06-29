@@ -1,0 +1,9 @@
+[package]
+name = "diesel_orm"
+version = "0.1.0"
+authors = ["yfaming <yfaming@gmail.com>"]
+
+[dependencies]
+time = "0.1"
+diesel = { version = "0.13.0", features = ["mysql"] }
+diesel_codegen = { version = "0.13.0", features = ["mysql"] }
